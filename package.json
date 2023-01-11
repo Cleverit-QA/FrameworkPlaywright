@@ -1,0 +1,32 @@
+{
+  "name": "frameworkplaywright",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">  Framework Playwright </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test-head": "npx playwright test --headed",
+    "firefox": "npx playwright test --project=firefox",
+    "chromium": "npx playwright test --project=chromium",
+    "webkit": "npx playwright test --project=webkit",
+    "browser:chromium": "npx playwright test --project=chromium --headed",
+    "browser:firefox": "npx playwright test --project=firefox --headed",
+    "browser:webkit": "npx playwright test --project=webkit --headed",
+    "play-report": "npx playwright show-report",
+    "reinstall": "npx playwright install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cleverit-QA/FrameworkPlaywright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cleverit-QA/FrameworkPlaywright/issues"
+  },
+  "homepage": "https://github.com/Cleverit-QA/FrameworkPlaywright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  }
+}
